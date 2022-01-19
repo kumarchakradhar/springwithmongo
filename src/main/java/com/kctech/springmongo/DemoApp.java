@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "com.mt.*")
+@ComponentScan(basePackages = "com.kctech.*")
 public class DemoApp {
 
     public static void main(String[] args) {
