@@ -85,9 +85,9 @@ spec:
   selector:
     app: springapp
   ports:
-  - port: 31000
+  - port: 80
     targetPort: 8080
-  type: NodePort
+  type: LoadBalancer
 ---
 # Mongo db pod with volumes(HostPath)
 apiVersion: apps/v1
