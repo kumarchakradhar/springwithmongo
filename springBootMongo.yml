@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: kctechnologiesdevops/springwithmongo:1.0
+        image: bayatapalli/springmongo-pipe:1.0
         ports:
         - containerPort: 8080
         env:
